@@ -1,0 +1,49 @@
+/* rune the command and see that it removes comments inside the blocks */
+
+/* comment not to be removed */
+
+.selector1{
+    background-color: red;
+    display:flex;
+    width:100px;
+
+    /* background-image: -moz-element(); */
+    /* comment to be removed */
+    border: 3px blue solid;
+    /* border: 3px blue solid;
+border: 3px blue solid; */
+
+    /* comment to be removed *//* comment to be removed */
+    border: 3px blue dashed;
+    /* min-height: auto; */
+
+    /* comment to be removed *//* comment to be removed */
+    /* comment to be removed */
+
+
+    /* comment to be removed */
+    height:fit-content;
+}
+/* comment not to be removed */
+/* comment not to be removed */
+
+.selector1{
+    background-color: red;
+    display:flex;
+    width:100px;
+
+    /* background-image: -moz-element(); */
+
+    border: 3px blue solid;
+    /* border: 3px blue solid;
+border: 3px blue solid; */
+    border: 3px blue dashed;
+
+    /* comment to be removed */
+    /* comment to be removed */
+
+    /* comment to be removed *//* comment to be removed */
+    /* min-height: auto; */
+    height:fit-content;
+}
+/* comment not to be removed */
