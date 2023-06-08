@@ -1,25 +1,28 @@
 {
-    "name": "remove-css-comments-inside-blocks",
+    "name": "vscode-rm-comments-in-css-blocks",
     "displayName": "remove css comments inside blocks",
     "description": "This extension simply goes through your css file and removes any comments that are within selector blocks `{ }`. I made this to use it when everything is configured and working, and I want to remove all the messy css properties I disabled and no longer need.",
     "version": "0.0.1",
-    "repository": {},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Hifilo/vscode-rm-comments-in-css-blocks"
+    },
     "engines": {
         "vscode": "^1.78.0"
     },
     "categories": [
         "Other"
     ],
-    "activationEvents":[
+    "activationEvents": [
         "onCommand:extension.removeCssCommentsInBlocks"
-],
+    ],
     "main": "./dist/extension.js",
     "contributes": {
         "commands": [
             {
                 "command": "extension.removeCssCommentsInBlocks",
                 "title": "Remove comments from CSS"
-                        }
+            }
         ]
     },
     "scripts": {
