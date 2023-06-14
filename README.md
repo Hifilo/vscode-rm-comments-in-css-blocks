@@ -18,7 +18,7 @@ None
 
 I made this for my own usage.
 
-There is currently an issue where the algorithm catches individual slashes in grid properties, gradients, etc.
+Previous issues resolved, working as expected.
 
 ## Release Notes
 
