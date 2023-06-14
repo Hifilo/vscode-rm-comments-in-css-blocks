@@ -19,25 +19,26 @@ border: 3px blue solid; */
 
     /* comment to be removed *//* comment to be removed */
     /* comment to be removed */
-
+    box-shadow: 0 0 0 0 rgb(3 149 229 / 40%);
 
     /* comment to be removed */
     height:fit-content;
 }
 /* comment not to be removed */
 /* comment not to be removed */
-
-.selector1{
+/*    box-shadow: 0 0 0 0 rgb(3 149 229 / 40%);*/
+.selector2{
     background-color: red;
     display:flex;
     width:100px;
 
     /* background-image: -moz-element(); */
-
+    box-shadow: 0 0 0 0 rgb(3 149 229 / 40%);
     border: 3px blue solid;
     /* border: 3px blue solid;
 border: 3px blue solid; */
     border: 3px blue dashed;
+    /*    box-shadow: 0 0 0 0 rgb(3 149 229 / 40%);*/
 
     /* comment to be removed */
     /* comment to be removed */
